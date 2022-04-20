@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #salbrut-eror {
+            color: red;
+        }
+    </style>
+</head>
+
+<body>
+    <div>
+        <form id="form">
+            <div>
+                <h1> Calculateur Salaire </h1>
+            </div>
+            <div>
+                <form>
+                    <div class="input-containor">
+                        <label for="salbrut">salaire brut</label>
+                        <span id="salbrut-errur"></span>
+                        <input id="salbrut" type="number">
+                    </div>
+                    <div>
+                        <label for="checkbox"> Supléments</label>
+                        <div class="input-containor">
+                            <input id="bonus" type="checkbox"> Bonus
+
+                        </div>
+                        <div class="input-containor">
+                            <input id="allocation" type="checkbox"> Allocation
+
+                        </div>
+                    </div>
+                    <div>
+                        <label for="radio">gender</label>
+                        <div class="input-containor">
+                            <input id="f" type="radio" name="sexe" value="femme"> Femme
+
+                        </div>
+                        <div class="input-containor">
+                            <input id="h" type="radio" name="sexe" value="homme"> Homme
+
+                        </div>
+                    </div>
+                    <div class="input-containor">
+                        <label for="nbre"> nombre de personnes à charge:</label>
+                        <input id="nbre" type="number">
+                    </div>
+                    <div class="input-containor">
+
+                        <input id="calcul" type="submit" value="calculer">
+                    </div>
+                    <div class="input-containor">
+                        <p class="impots">Impôts sur le revenu : ?</p>
+                        <p class="assurance">Assurance employé : ?</p>
+                        <p class="regime">Régime de pensions du Canada: ?</p>
+                    </div>
+                </form>
+            </div>
+        </form>
+    </div>
+
+    <script src="exercice6.js"></script>
+</body>
+
+</html>
